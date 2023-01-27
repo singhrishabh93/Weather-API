@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(215, 208, 208);
+    background-image: url("bg.jpg");
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(48, 48, 48);
+}
+
+#cityWeatherOutput {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#outputSpanApi {
+    font-size: 30px;
+    font-weight: bold;
+    color: #5900ff;
+}
+
+.cityDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cityInputClass {
+    padding-left: 10px;
+    display: flex;
+    background: white;
+    height: 40px;
+    width: 500px;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4%;
+    border: none;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+footer {
+    color: rgb(217, 255, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    height: 26px;
+    clear: both;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+#cityBtn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: none;
+border-radius: 50px;
+transition : 795ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+#cityBtn{
+
+transition : 795ms;
+padding: 10px 37px;
+transform : translateY(-0px);
+background-color: #ff0000;
+color: #ffffff;
+border: solid 2px #ff0000;
+}
